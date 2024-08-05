@@ -1,0 +1,31 @@
+.pagination__container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination__button{
+	cursor: pointer;
+	display: flex;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.pagination__button--disabled{
+	pointer-events: none;
+  	opacity: 0;
+}
+
+.pagination__button:hover{
+	border-radius: 50px;
+	background-color: gold;
+}
+
+.pagination__page-active{
+	border-radius: 50px;
+	background-color: gold;
+	color: black;
+	cursor: default;
+}

@@ -1,0 +1,27 @@
+.tab-list-item {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: -1px;
+  /*padding: 0.5rem 0.75rem;*/
+  /*border: 1px solid gold;*/
+  /*border-right: 1px solid gold;*/
+  borderRadius: 5px;
+  padding: 0.5rem 0.75rem;
+  fontFamily: Montserrat;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500px;
+}
+
+.tab-list-item:hover{
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+}
+
+.active{
+  background-color: gold;
+  font-weight: 700px;
+}

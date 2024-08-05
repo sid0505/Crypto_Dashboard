@@ -1,0 +1,25 @@
+.selectbutton{
+	border: 1px solid gold;
+	borderRadius: 5px;
+    padding: 10px;
+    paddingLeft: 20px;
+    paddingRight: 20px;
+    fontFamily: Montserrat;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500px;
+/*    backgroundColor: selected ? gold : "";
+    color: selected ? black : "";
+    fontWeight: selected ? 700 : 500;*/
+}
+
+.selectbutton:hover{
+	background-color: gold;
+	color: black;
+}
+
+.active{
+    color: #1A1A1C;
+	background-color: gold;
+	font-weight: 700px;
+}

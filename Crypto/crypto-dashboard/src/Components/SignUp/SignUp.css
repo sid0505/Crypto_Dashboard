@@ -1,0 +1,37 @@
+.signup-container{
+	padding: 0.5rem 0.75rem;
+}
+
+.signup-items{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	padding: 0.5rem 0px;
+}
+
+button {
+	border: 1px solid gold;
+	/*borderRadius: 5px;*/
+	border-radius: 4px;
+    padding: 10px;
+    paddingLeft: 20px;
+    paddingRight: 20px;
+    fontFamily: Montserrat;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500px;
+/*    backgroundColor: selected ? gold : "";
+    color: selected ? black : "";
+    fontWeight: selected ? 700 : 500;*/
+}
+
+button:hover{
+	background-color: gold;
+	color: black;
+}
+
+.active{
+	background-color: gold;
+	font-weight: 700px;
+}
